@@ -26,7 +26,6 @@ import string
 alfabeto = set(string.ascii_lowercase) 
 
 ---
----
 
 2. Escriba una función que devuelva el número palíndromo* más cercano a un entero dado. Si dos números palíndromos empatan en distancia absoluta, devuelve el número más pequeño.
 4 pts.
@@ -38,12 +37,11 @@ palindromo_cercano(27)
 palindromo_cercano(100)
 
 ---
----
 
 3. Te han contratado en Saman-Airlines ✈️, esta línea aérea desea llevar el control de las horas de sus pilotos para su respectivo pago; para esto, una vez que el piloto se presta a dar servicio, se toman los siguientes datos: cédula del piloto, tipo de avión (Hélice “H” o Jet “J”), y el número de horas del vuelo. Dependiendo de las horas se les paga a los pilotos. 
 
 | Tipo de Avion    | Costo por hora |
-| :---             | :----:         | 
+| :---             | ----:          | 
 | Helice           | 40             |
 | Jet              | 50             | 
 
