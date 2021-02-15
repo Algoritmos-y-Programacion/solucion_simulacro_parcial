@@ -12,8 +12,9 @@ pangrama('El cadaver de Wamba, rey godo de Espana, fue exhumado y trasladado en 
 
 
 Output:
-
+```
 ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
+```
 
 * Las letras del output deben ser de la oración del pangrama
 
@@ -21,9 +22,11 @@ Output:
 Nota:
 Puedes tener las letras del alfabeto con:
 
+```
 import string 
 
 alfabeto = set(string.ascii_lowercase) 
+```
 
 ---
 
@@ -40,25 +43,25 @@ palindromo_cercano(100)
 
 3. Te han contratado en Saman-Airlines ✈️, esta línea aérea desea llevar el control de las horas de sus pilotos para su respectivo pago; para esto, una vez que el piloto se presta a dar servicio, se toman los siguientes datos: cédula del piloto, tipo de avión (Hélice “H” o Jet “J”), y el número de horas del vuelo. Dependiendo de las horas se les paga a los pilotos. 
 
-| Tipo de Avion    | Costo por hora |
-| :---             | ----:          | 
-| Helice           | 40             |
-| Jet              | 50             | 
+| Tipo de Avion    | Costo por hora  |
+| :---             | ----:           | 
+| Helice           | $40             |
+| Jet              | $50             | 
 
 
 Usted deberá desarrollar un programa de forma de producir un output que contenga lo siguiente: 
 
 
 **Para cada piloto:  4 Pts**
--Cédula de Identidad del piloto
--Tipo de avión 
--Monto Total a ser pagado al piloto. Si el piloto toma más de 8 horas de vuelo, se le otorgará un aumento del 10% sobre el Monto total a serle pagado. 
+- Cédula de Identidad del piloto
+- Tipo de avión 
+- Monto Total a ser pagado al piloto. Si el piloto toma más de 8 horas de vuelo, se le otorgará un aumento del 10% sobre el Monto total a serle pagado. 
 
 **Al final del día para la Samán Airlines: 7 Pts**
--La cantidad total de pilotos con su información 
--La cantidad de pilotos por tipo de avión 
--La cantidad de pilotos a quienes se les otorgó el aumento
--El Promedio de pago por tipo de avión 
+- La cantidad total de pilotos con su información 
+- La cantidad de pilotos por tipo de avión 
+- La cantidad de pilotos a quienes se les otorgó el aumento
+- El Promedio de pago por tipo de avión 
 
 
 ---
