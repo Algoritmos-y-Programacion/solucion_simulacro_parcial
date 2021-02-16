@@ -5,7 +5,7 @@
 1. Dada una oración, escriba un programa Python para verificar si esa oración es un Pangrama o no. Un pangrama es una oración que contiene todas las letras del alfabeto inglés.
  4 Pts.
 
-Luego, si la oración es un pangrama ordena de menor a mayor (A-Z) las letras usando uno de los algoritmos de ordenamiento (debe indicar cual está usando), y debe sólo mostrar caracteres no repetidos. 
+Luego, si la oración es un pangrama ordena de menor a mayor (A-Z) y debe sólo mostrar caracteres no repetidos. Las letras del output deben ser de la oración del pangrama.
 
 Ejemplo de Input:
 pangrama('El cadaver de Wamba, rey godo de Espana, fue exhumado y trasladado en una caja de zinc que peso un kilo')
@@ -13,11 +13,10 @@ pangrama('El cadaver de Wamba, rey godo de Espana, fue exhumado y trasladado en 
 
 Output:
 ```
+Es un pangrama!
+
 ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
 ```
-
-* Las letras del output deben ser de la oración del pangrama
-
 
 Nota:
 Puedes tener las letras del alfabeto con:
@@ -55,12 +54,12 @@ Usted deberá desarrollar un programa de forma de producir un output que conteng
 **Para cada piloto:  4 Pts**
 - Cédula de Identidad del piloto
 - Tipo de avión 
-- Monto Total a ser pagado al piloto. Si el piloto toma más de 8 horas de vuelo, se le otorgará un aumento del 10% sobre el Monto total a serle pagado. 
+- Monto Total a ser pagado al piloto. Si el piloto toma más de 8 horas de vuelo, se le otorgará un aumento del 10% sobre el Monto total a serle pagado. Si su cedula es pronico entonces se le debe otorgar un 50% de descuento.
 
 **Al final del día para la Samán Airlines: 7 Pts**
 - La cantidad total de pilotos con su información 
 - La cantidad de pilotos por tipo de avión 
-- La cantidad de pilotos a quienes se les otorgó el aumento
+- La cantidad de pilotos a quienes se les otorgó el aumento // descuento
 - El Promedio de pago por tipo de avión 
 
 
