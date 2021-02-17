@@ -5,17 +5,17 @@
 1. Dada una oración, escriba un programa Python para verificar si esa oración es un Pangrama o no. Un pangrama es una oración que contiene todas las letras del alfabeto inglés.
  4 Pts.
 
-Luego, si la oración es un pangrama ordena de menor a mayor (A-Z) y debe sólo mostrar caracteres no repetidos. Las letras del output deben ser de la oración del pangrama.
-
 Ejemplo de Input:
+```
 pangrama('El cadaver de Wamba, rey godo de Espana, fue exhumado y trasladado en una caja de zinc que peso un kilo')
-
+pangrama('Hola mundo')
+```
 
 Output:
 ```
-Es un pangrama!
+Es un pangrama
 
-['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
+No es un pangrama
 ```
 
 Nota:
@@ -35,8 +35,15 @@ alfabeto = set(string.ascii_lowercase)
 *Palabra o expresión que es igual si se lee de izquierda a derecha que de derecha a izquierda, ejemplo: 101, 777, 22, 5
 
 Ejemplo de input:
+```
 palindromo_cercano(27)
 palindromo_cercano(100)
+```
+Ejemplo de output:
+```
+>22
+>99
+``
 
 ---
 
