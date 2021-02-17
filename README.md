@@ -60,7 +60,7 @@ Usted deberá desarrollar un programa de forma de producir un output que conteng
 **Para cada piloto:  4 Pts**
 - Cédula de Identidad del piloto
 - Tipo de avión 
-- Monto Total a ser pagado al piloto. Si el piloto toma más de 8 horas de vuelo, se le otorgará un aumento del 10% sobre el Monto total a serle pagado. Si su cedula es pronico entonces se le debe otorgar un 50% de descuento.
+- Monto Total a ser pagado al piloto. Si el piloto toma más de 8 horas de vuelo, se le otorgará un aumento del 10% sobre el Monto total a serle pagado. Si su cedula es pronico entonces se le debe descontar un 50% del monto a pagar.
 
 **Al final del día para la Samán Airlines: 7 Pts**
 - La cantidad total de pilotos con su información 
