@@ -13,9 +13,8 @@ pangrama('Hola mundo')
 
 Output:
 ```
-Es un pangrama
-
-No es un pangrama
+>Es un pangrama
+>No es un pangrama
 ```
 
 Nota:
