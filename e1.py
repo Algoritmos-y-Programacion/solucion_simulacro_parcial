@@ -10,7 +10,10 @@ def pangrama(oracion,abc):
   Returns:
       Bool: Retorna True si es un pangrama, False si no es un pangrama
   """
+
+  #iteramos por cada letra en el abecedario
   for letra in abc:
+    # Si la letra no esta en oracion, entonces no es un pangrama, hacemos oracion.lower() para que todas las letras de oracion se vuelvan minuscula
     if letra not in oracion.lower():
       return False
   return True
